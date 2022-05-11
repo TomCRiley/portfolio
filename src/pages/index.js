@@ -10,10 +10,11 @@ import { Section } from '../styles/GlobalComponents';
 const Home = () => {
   return (
     <Layout>
-      {/* <Section grid> */}
+      {/* not sure if I want to keep this animation??? */}
+      <Section grid>
         <Hero />
-        {/* <BgAnimation /> */}
-      {/* </Section> */}
+        <BgAnimation />
+      </Section>
       <Projects />
       <Technologies />
       <Timeline />
