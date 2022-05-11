@@ -2,9 +2,10 @@ import styled from 'styled-components';
 
 export const Img = styled.img`
   width: 100%;
-  height: 100%;
+  max-height: 350px;
   object-fit: cover;
   overflow: hidden;
+  border-radius: 10px;
 `;
 
 export const GridContainer = styled.section`

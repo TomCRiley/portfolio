@@ -11,7 +11,7 @@ import {
   TagList,
   TitleContent,
   UtilityList,
-  Image,
+  Img,
 } from './ProjectsStyles';
 
 import {
@@ -28,7 +28,7 @@ const Projects = () => (
     <GridContainer>
       {projects.map(({ id, img, title, description, tags, source, visit }) => (
         <BlogCard key={id}>
-          <img src={img} />
+          <Img src={img} />
           <TitleContent>
             <HeaderThree title>{title}</HeaderThree>
             <Hr />
