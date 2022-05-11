@@ -3,8 +3,8 @@ export const projects = [
     title: 'Discover.ly',
     description:
       "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-    img: '/images/1.png',
-    tags: ['Mongo', 'Express', 'React', 'Node'],
+    img: '/images/p3_image.jpeg',
+    tags: ['MongoDB', 'Express', 'React', 'Node', 'Bulma.io'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 0,
@@ -13,8 +13,8 @@ export const projects = [
     title: 'GameSpace',
     description:
       "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    img: '/images/2.png',
-    tags: ['React', 'JavaScript'],
+    img: '/images/p4_image.jpeg',
+    tags: ['React', 'JavaScript', 'Python', 'Django', 'MUI5'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 1,
@@ -23,8 +23,8 @@ export const projects = [
     title: 'StarFinder',
     description:
       "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-    img: '/images/3.jpg',
-    tags: ['React', 'WebRTC'],
+    img: '/images/p2_image.jpeg',
+    tags: ['React', 'Bulma.io', 'REST'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 2,
@@ -33,8 +33,8 @@ export const projects = [
     title: 'PokéRun',
     description:
       'This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application',
-    img: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
+    img: '/images/p1_image.jpeg',
+    tags: ['JavaScript', 'HTML', 'CSS'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 3,

@@ -11,7 +11,7 @@ import {
   TagList,
   TitleContent,
   UtilityList,
-  Img,
+  Image,
 } from './ProjectsStyles';
 
 import {
