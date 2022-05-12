@@ -11,11 +11,11 @@ import { AcomplishmentsData } from '../../constants/constants';
 
 const Acomplishments = () => (
   <Section>
-    <SectionTitle>Personal Accomplishments</SectionTitle>
+    <SectionTitle>Interests</SectionTitle>
     <Boxes>
       {AcomplishmentsData.map((card, index) => (
         <Box key={index}>
-          <BoxNum>{card.number}+</BoxNum>
+          <BoxNum>{card.thing}</BoxNum>
           <BoxText>{card.text}</BoxText>
         </Box>
       ))}

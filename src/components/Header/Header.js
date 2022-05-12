@@ -1,7 +1,14 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
+import {
+  AiFillBuild,
+  AiFillDingtalkCircle,
+  AiFillGithub,
+  AiFillLinkedin,
+  AiTwotoneMail,
+} from 'react-icons/ai';
+import { DiApple, DiCssdeck } from 'react-icons/di';
+import { HeaderMemoji } from '../../constants/constants';
 
 import {
   Container,
@@ -25,10 +32,13 @@ const Header = () => (
             marginBottom: 20,
           }}
         >
-          <DiCssdeck size='3rem' /> <Span>tomriley.dev</Span>
+          {/* <img src={HeaderMemoji.img} alt={HeaderMemoji.alt} /> */}
+          {/* <AiFillBuild size='3rem' />  */}
+          <Span>👨🏻‍💻tomriley.dev</Span>
         </a>
       </Link>
     </Div1>
+
     <Div2>
       <li>
         <Link href='#projects'>
@@ -42,7 +52,7 @@ const Header = () => (
       </li>
       <li>
         <Link href='#about'>
-          <NavLink>About Me</NavLink>
+          <NavLink>About</NavLink>
         </Link>
       </li>
     </Div2>
@@ -53,8 +63,8 @@ const Header = () => (
       <SocialIcons href='https://github.com/TomCRiley'>
         <AiFillLinkedin size='3rem' />
       </SocialIcons>
-      <SocialIcons href='https://github.com/TomCRiley'>
-        <AiFillInstagram size='3rem' />
+      <SocialIcons href='mailto:hello@tomriley.dev'>
+        <AiTwotoneMail size='3rem' />
       </SocialIcons>
     </Div3>
   </Container>

@@ -1,8 +1,10 @@
+import { DiApple } from 'react-icons/di';
+
 export const projects = [
   {
     title: 'Discover.ly',
     description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+      'A 7 day group-of-3 project built using React and Bulma CSS framework in the MERN stack. We built a social discovery webapp where users can discover, publish, ‘like’ and comment on specific locations that they’d recommend for sports and experiences. With Node.js, Express and MongoDB on the backend, I was also responsible for implementing an external maps api (Leaflet.js) so that users could pin their discovered ‘spot’ to a map.',
     img: '/images/p3_image.jpeg',
     tags: ['MongoDB', 'Express', 'React', 'Node', 'Bulma.io'],
     source: 'https://github.com/TomCRiley/Discover.ly_Client',
@@ -12,7 +14,7 @@ export const projects = [
   {
     title: 'GameSpace',
     description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+      "7 day solo project focusing on a Python backend using Django and PostgreSQL. My idea was to build a Reddit-style web forum for video game lovers who want to create channels that focus on specific games, publish content and comment on each other's posts. I built the front end in React and made use of Material UI’s CSS framework. This was an ambitious amount of work with many endpoints to design and implement in the time frame, but I’m proud of the outcome with all the technologies I used for the first time. ",
     img: '/images/p4_image.jpeg',
     tags: ['React', 'JavaScript', 'Python', 'Django', 'MUI5'],
     source: 'https://github.com/TomCRiley/GamrAPI',
@@ -22,7 +24,7 @@ export const projects = [
   {
     title: 'StarFinder',
     description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+      'A 36 hour hackathon with a brief to consume a public API and build a front end with React, React Hooks, Bulma CSS, JavaScript, Express and Node.js. Through pair-programming with feature based git version control, we created StarFinder, a daily horoscope webapp.',
     img: '/images/p2_image.jpeg',
     tags: ['React', 'Bulma.io', 'REST'],
     source: 'https://github.com/TomCRiley/StarFinder',
@@ -32,7 +34,7 @@ export const projects = [
   {
     title: 'PokéRun',
     description:
-      'This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application',
+      'A 7 day solo project to practise my fundamental learnings in JavaScript, CSS and HTML. After only 3 weeks of study I had built a Pokémon-themed, grid based, Space Invaders style game.',
     img: '/images/p1_image.jpeg',
     tags: ['JavaScript', 'HTML', 'CSS'],
     source: 'https://github.com/TomCRiley/PokeRun',
@@ -49,8 +51,18 @@ export const TimeLineData = [
 ];
 
 export const AcomplishmentsData = [
-  { number: 20, text: 'Open Source Projects' },
-  { number: 1000, text: 'Students' },
-  { number: 1900, text: 'Github Followers' },
-  { number: 5000, text: 'Github Stars' },
+  {
+    thing: '📚',
+    text: 'A Little Life, Hanya Yanagahara',
+  },
+  {
+    thing: '🏋🏻‍♂️',
+    text: 'CrossFit. It brought me out of my shell!',
+  },
+  { thing: <DiApple />, text: "WWDC. It's what got me into tech. " },
+  { thing: '🎮', text: 'The Last of Us Part 2, anyone?' },
+];
+
+export const HeaderMemoji = [
+  { alt: 'Toms Macbook Memoji', img: '/images/tom_macbook.png' },
 ];

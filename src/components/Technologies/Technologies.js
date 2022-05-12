@@ -1,5 +1,12 @@
 import React from 'react';
-import { DiAsterisk, DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import {
+  DiAppcelerator,
+  DiAsterisk,
+  DiFirebase,
+  DiReact,
+  DiSwift,
+  DiZend,
+} from 'react-icons/di';
 import {
   Section,
   SectionDivider,
@@ -19,31 +26,45 @@ const Technologies = () => (
     <SectionDivider />
     <br />
     <SectionTitle>Tech Stack</SectionTitle>
-    <SectionText>I've worked with a range of tech so far,</SectionText>
+    <SectionText>Technology I've worked with:</SectionText>
     <List>
       <ListItem>
         <DiReact size='3rem' />
         <ListTitle>Frontend</ListTitle>
         <ListParagraph>
-          Experience with <br />
-          React.js
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript/ES6</li>
+          <li>SASS</li>
+          <li>React.js</li>
+          <li>MERN</li>
+          <li>MUI5</li>
+          <li>Bulma.io</li>
         </ListParagraph>
       </ListItem>
       <ListItem>
         <DiFirebase size='3rem' />
         <ListTitle>Backend</ListTitle>
         <ListParagraph>
-          Experience with <br />
-          MongoDB and Node
+          <li>Python</li>
+          <li>Django</li>
+          <li>MongoDB</li>
+          <li>Mongoose</li>
+          <li>Sanity.io</li>
+          <li>Express</li>
+          <li>Node.js</li>
+          <li>PostreSQL</li>
         </ListParagraph>
       </ListItem>
       <ListItem>
-        <DiAsterisk size='3rem' />
-        <ListTitle>Currently learning...</ListTitle>
+        <DiSwift size='3rem' />
+        <ListTitle>Dabbled with...</ListTitle>
         <ListParagraph>
-          I've dabbled in native Swift
-          <br /> and have tried out React Native. I'm also looking at
-          TypeScript.
+          <li>Swift</li>
+          <li>TypeScript</li>
+          <li>NextJS</li>
+          <li>React Native</li>
+          <li>XCode</li>
         </ListParagraph>
       </ListItem>
     </List>

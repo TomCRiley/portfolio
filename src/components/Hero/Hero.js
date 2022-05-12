@@ -12,17 +12,16 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Hey, I'm Tom
-        <br />I like to make things
+        Hey, I'm Tom 👋
+        <br />I like to make things__
       </SectionTitle>
       <SectionText>
-        I'm a full stack junior web developer with a passion for trying cool new
-        things out and writing readable code.
+        I'm a full stack junior web developer with a passion for tech.
       </SectionText>
       <Button
         onClick={() => (window.location = 'https://github.com/TomCRiley')}
       >
-        Things I Made
+        GitHub
       </Button>
     </LeftSection>
   </Section>
