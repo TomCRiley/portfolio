@@ -11,7 +11,7 @@ import { AcomplishmentsData } from '../../constants/constants';
 
 const Acomplishments = () => (
   <Section>
-    <SectionTitle>Interests</SectionTitle>
+    <SectionTitle>Side Quests</SectionTitle>
     <Boxes>
       {AcomplishmentsData.map((card, index) => (
         <Box key={index}>

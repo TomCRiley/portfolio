@@ -1,5 +1,8 @@
 import React from 'react';
 
+import { BiCodeAlt } from 'react-icons/bi';
+import { HiExternalLink } from 'react-icons/hi';
+
 import {
   BlogCard,
   CardInfo,
@@ -24,7 +27,7 @@ import { projects } from '../../constants/constants';
 const Projects = () => (
   <Section nopadding id='projects'>
     <SectionDivider />
-    <SectionTitle main>Side Quests</SectionTitle>
+    <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
       {projects.map(({ id, img, title, description, tags, source, visit }) => (
         <BlogCard key={id}>
@@ -43,8 +46,12 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href={visit}>Code</ExternalLinks>
-            <ExternalLinks href={source}>Source</ExternalLinks>
+            <ExternalLinks href={visit}>
+              <BiCodeAlt size='3rem' />
+            </ExternalLinks>
+            <ExternalLinks href={source}>
+              <HiExternalLink size='3rem' />
+            </ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))}

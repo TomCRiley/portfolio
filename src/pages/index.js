@@ -13,7 +13,7 @@ const Home = () => {
       {/* not sure if I want to keep this animation??? */}
       <Section grid>
         <Hero />
-        <BgAnimation />
+        {/* <BgAnimation /> */}
       </Section>
       <Projects />
       <Technologies />

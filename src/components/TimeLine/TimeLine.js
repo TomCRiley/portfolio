@@ -70,9 +70,10 @@ const Timeline = () => {
         I’m a London based Junior Software Developer. And I absolutely love
         tech.
         <br />
-        I started out in operations at Apple and in financial technology. In
-        early 2022 I completed a full stack software engineering course with
-        General Assembly.
+        I started out in operations at Apple and then moved into financial
+        technology. In early 2022 I completed a full stack software engineering
+        course with General Assembly - achieving a dream of mine to be able to
+        code whatever I can think up.
         <br />I am now looking to work in a diverse team with passionate people
         where I can thrive amongst others and keep on learning.
       </SectionText>

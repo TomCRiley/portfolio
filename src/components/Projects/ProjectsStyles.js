@@ -6,6 +6,7 @@ export const Img = styled.img`
   object-fit: cover;
   overflow: hidden;
   border-radius: 10px;
+  padding: 5px;
 `;
 
 export const GridContainer = styled.section`

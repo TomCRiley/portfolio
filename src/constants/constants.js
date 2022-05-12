@@ -44,7 +44,10 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2015, text: 'Apple' },
+  { year: 1994, text: 'Tectonic plates shifted, stars aligned. I was born✨' },
+  { year: 2012, text: 'Moved to London' },
+  { year: 2015, text: 'Journalism BA' },
+  { year: 2015, text: 'Started work at Apple' },
   { year: 2016, text: 'Promoted to Senior Repair Tech "Genius"' },
   { year: 2020, text: 'Curve Regulated Operations' },
   { year: 2022, text: 'Graduated General Assembly Full Stack Engineering' },
@@ -53,7 +56,7 @@ export const TimeLineData = [
 export const AcomplishmentsData = [
   {
     thing: '📚',
-    text: 'A Little Life, Hanya Yanagahara',
+    text: 'A Little Life, Hanya Yanagahara.',
   },
   {
     thing: '🏋🏻‍♂️',

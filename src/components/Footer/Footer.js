@@ -3,6 +3,7 @@ import {
   AiFillGithub,
   AiFillInstagram,
   AiFillLinkedin,
+  AiFillPhone,
   AiTwotoneMail,
 } from 'react-icons/ai';
 
@@ -24,19 +25,19 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>☎️</LinkTitle>
-          <LinkItem href='tel:+44(0)7468605902'>+44 (0) 7468605902</LinkItem>
+          <LinkTitle>Phone</LinkTitle>
+          <LinkItem href='tel:+44(0)7468605902'>☎️ +44 (0) 7468605902</LinkItem>
         </LinkColumn>
         <LinkColumn>
-          <LinkTitle>📧</LinkTitle>
+          <LinkTitle>Email</LinkTitle>
           <LinkItem href='mailto:hello@tomriley.dev'>
-            hello@tomriley.dev
+            👨🏻‍💻 hello@tomriley.dev
           </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating forever baby</Slogan>
+          <Slogan>Thanks for making it this far!</Slogan>
         </CompanyContainer>
         <SocialIcons href='https://github.com/TomCRiley'>
           <AiFillGithub size='3rem' />
