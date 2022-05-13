@@ -25,7 +25,9 @@ const Technologies = () => (
   <Section id='tech'>
     <SectionDivider />
     <br />
-    <SectionTitle>Tech Stack</SectionTitle>
+    <SectionTitle>
+      Tech Stack <span id='Emoji'>❤️‍🔥</span>
+    </SectionTitle>
     <SectionText>Technology I've worked with:</SectionText>
     <List>
       <ListItem>

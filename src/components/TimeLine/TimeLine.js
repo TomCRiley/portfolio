@@ -65,7 +65,9 @@ const Timeline = () => {
 
   return (
     <Section id='about'>
-      <SectionTitle>About Me</SectionTitle>
+      <SectionTitle>
+        About Me <span id='Emoji'>👨🏻‍💻</span>
+      </SectionTitle>
       <SectionText>
         I’m a London based Junior Software Developer. And I absolutely love
         tech.

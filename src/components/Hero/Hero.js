@@ -12,7 +12,7 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Hey, I'm Tom <span id='waveEmoji'>👋</span>
+        Hey, I'm Tom <span id='Emoji'>👋</span>
         <br />I like to make things<div id='cursor'></div>
       </SectionTitle>
       <SectionText>
