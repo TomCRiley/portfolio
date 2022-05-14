@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BiCodeAlt } from 'react-icons/bi';
+import { BiCodeAlt, BiLinkExternal } from 'react-icons/bi';
 import { HiExternalLink } from 'react-icons/hi';
 
 import {
@@ -23,6 +23,7 @@ import {
   SectionTitle,
 } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
+import { DiGithub, DiGithubAlt, DiGithubBadge } from 'react-icons/di';
 
 const Projects = () => (
   <Section nopadding id='projects'>
@@ -49,10 +50,10 @@ const Projects = () => (
           </div>
           <UtilityList>
             <ExternalLinks href={visit}>
-              <BiCodeAlt size='3rem' />
+              <BiLinkExternal size='3rem' />
             </ExternalLinks>
             <ExternalLinks href={source}>
-              <HiExternalLink size='3rem' />
+              <DiGithubBadge size='3rem' />
             </ExternalLinks>
           </UtilityList>
         </BlogCard>

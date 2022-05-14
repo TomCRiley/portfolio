@@ -7,6 +7,7 @@ import {
 } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
+// import TomMacbook from '/public/images/tom_macbook.png';
 
 const Hero = () => (
   <Section row nopadding>
@@ -18,6 +19,9 @@ const Hero = () => (
       <SectionText>
         I'm a full stack junior web developer with a passion for tech.
       </SectionText>
+      <div>
+        <img src='/public/images/tom_macbook.png' alt='Memoji' />
+      </div>
       <Button
         onClick={() => (window.location = 'https://github.com/TomCRiley')}
       >
