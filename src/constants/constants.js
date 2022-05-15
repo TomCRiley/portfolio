@@ -56,7 +56,7 @@ export const TimeLineData = [
 export const AcomplishmentsData = [
   {
     thing: '📚',
-    text: 'A Little Life, Hanya Yanagahara.',
+    text: 'A Little Life, Hanya Yanagihara.',
   },
   {
     thing: '🏋🏻‍♂️',

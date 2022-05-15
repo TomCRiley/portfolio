@@ -1,25 +1,12 @@
 import React from 'react';
-import {
-  DiAppcelerator,
-  DiAsterisk,
-  DiFirebase,
-  DiReact,
-  DiSwift,
-  DiZend,
-} from 'react-icons/di';
+import { DiFirebase, DiReact, DiSwift } from 'react-icons/di';
 import {
   Section,
   SectionDivider,
   SectionText,
   SectionTitle,
 } from '../../styles/GlobalComponents';
-import {
-  List,
-  ListContainer,
-  ListItem,
-  ListParagraph,
-  ListTitle,
-} from './TechnologiesStyles';
+import { List, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () => (
   <Section id='tech'>

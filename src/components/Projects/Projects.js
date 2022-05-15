@@ -1,7 +1,6 @@
 import React from 'react';
 
-import { BiCodeAlt, BiLinkExternal } from 'react-icons/bi';
-import { HiExternalLink } from 'react-icons/hi';
+import { BiLinkExternal } from 'react-icons/bi';
 
 import {
   BlogCard,
@@ -23,7 +22,7 @@ import {
   SectionTitle,
 } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
-import { DiGithub, DiGithubAlt, DiGithubBadge } from 'react-icons/di';
+import { DiGithubBadge } from 'react-icons/di';
 
 const Projects = () => (
   <Section nopadding id='projects'>
