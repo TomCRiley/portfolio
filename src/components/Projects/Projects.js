@@ -59,6 +59,7 @@ const Projects = () => (
         </BlogCard>
       ))}
     </GridContainer>
+    <SectionDivider />
   </Section>
 );
 

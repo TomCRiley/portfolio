@@ -23,7 +23,6 @@ import {
 
 const Technologies = () => (
   <Section id='tech'>
-    <SectionDivider />
     <br />
     <SectionTitle>
       Tech Stack <span id='Emoji'>❤️‍🔥</span>
@@ -70,6 +69,7 @@ const Technologies = () => (
         </ListParagraph>
       </ListItem>
     </List>
+    <SectionDivider />
   </Section>
 );
 
