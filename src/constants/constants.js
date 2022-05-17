@@ -57,13 +57,23 @@ export const AcomplishmentsData = [
   {
     thing: '📚',
     text: 'A Little Life, Hanya Yanagihara.',
+    url: 'https://www.goodreads.com/book/show/22822858-a-little-life',
   },
   {
     thing: '🏋🏻‍♂️',
     text: 'CrossFit. It brought me out of my shell!',
+    url: 'https://games.crossfit.com/',
   },
-  { thing: <DiApple />, text: "WWDC. It's what got me into tech. " },
-  { thing: '🎮', text: 'The Last of Us Part 2, anyone?' },
+  {
+    thing: <DiApple />,
+    text: "WWDC. It's what got me into tech. ",
+    url: 'https://developer.apple.com/wwdc22/',
+  },
+  {
+    thing: '🎮',
+    text: 'The Last of Us Part 2, anyone?',
+    url: 'https://www.naughtydog.com/blog/the_last_of_us_part_ii',
+  },
 ];
 
 export const HeaderMemoji = [

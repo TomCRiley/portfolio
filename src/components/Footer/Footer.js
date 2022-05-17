@@ -34,8 +34,8 @@ const Footer = () => {
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>
-            Thanks for making it this far! Check out my GitHub and LinkedIn to
-            the right, or send me an email.
+            Thanks for making it this far! Check out my GitHub and LinkedIn, or
+            send me an email.
           </Slogan>
         </CompanyContainer>
         <SocialIcons href='https://github.com/TomCRiley'>
