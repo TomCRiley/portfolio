@@ -38,13 +38,25 @@ const Footer = () => {
             send me an email.
           </Slogan>
         </CompanyContainer>
-        <SocialIcons href='https://github.com/TomCRiley'>
+        <SocialIcons
+          href='https://github.com/TomCRiley'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <AiFillGithub size='3rem' />
         </SocialIcons>
-        <SocialIcons href='https://github.com/TomCRiley'>
+        <SocialIcons
+          href='https://github.com/TomCRiley'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <AiFillLinkedin size='3rem' />
         </SocialIcons>
-        <SocialIcons href='mailto:hello@tomriley.dev'>
+        <SocialIcons
+          href='mailto:hello@tomriley.dev'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <AiTwotoneMail size='3rem' />
         </SocialIcons>
       </SocialIconsContainer>

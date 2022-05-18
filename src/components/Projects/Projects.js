@@ -48,10 +48,18 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href={visit}>
+            <ExternalLinks
+              href={visit}
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <BiLinkExternal size='3rem' />
             </ExternalLinks>
-            <ExternalLinks href={source}>
+            <ExternalLinks
+              href={source}
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <DiGithubBadge size='3rem' />
             </ExternalLinks>
           </UtilityList>

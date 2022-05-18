@@ -1,12 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import {
-  AiFillBuild,
-  AiFillDingtalkCircle,
-  AiFillGithub,
-  AiFillLinkedin,
-  AiTwotoneMail,
-} from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin, AiTwotoneMail } from 'react-icons/ai';
 import { DiApple, DiCssdeck } from 'react-icons/di';
 import { HeaderMemoji } from '../../constants/constants';
 
@@ -57,13 +51,25 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href='https://github.com/TomCRiley'>
+      <SocialIcons
+        href='https://github.com/TomCRiley'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
         <AiFillGithub size='3rem' />
       </SocialIcons>
-      <SocialIcons href='https://github.com/TomCRiley'>
+      <SocialIcons
+        href='https://github.com/TomCRiley'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
         <AiFillLinkedin size='3rem' />
       </SocialIcons>
-      <SocialIcons href='mailto:hello@tomriley.dev'>
+      <SocialIcons
+        href='mailto:hello@tomriley.dev'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
         <AiTwotoneMail size='3rem' />
       </SocialIcons>
     </Div3>

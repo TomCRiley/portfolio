@@ -29,7 +29,7 @@ const Hero = () => (
         />
       </div> */}
       <Button
-        onClick={() => (window.location = 'https://github.com/TomCRiley')}
+        onClick={() => window.open('https://github.com/TomCRiley', '_blank')}
       >
         GitHub
       </Button>
