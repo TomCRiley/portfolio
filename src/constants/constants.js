@@ -28,7 +28,7 @@ export const projects = [
     img: '/images/p2_image.jpeg',
     tags: ['React', 'Bulma.io', 'REST'],
     source: 'https://github.com/TomCRiley/StarFinder',
-    visit: 'https://google.com',
+    visit: 'https://starfinder-react.netlify.app/',
     id: 2,
   },
   {
