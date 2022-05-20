@@ -1,8 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin, AiTwotoneMail } from 'react-icons/ai';
-import { DiApple, DiCssdeck } from 'react-icons/di';
-import { HeaderMemoji } from '../../constants/constants';
 
 import {
   Container,
